@@ -17,23 +17,26 @@ Use the following command to compile the program:
 
 ```sh
 gcc -O3 -std=c11 -Wall -o fib_heap main.c
+```
 
-Usage
+## Usage
 To execute the program, you can either directly input the commands via the terminal, or you can redirect the input from a file:
 
-Terminal Input
+### Terminal Input
 ```sh
 ./fib_heap
+```
 
 Type your commands followed by the quit command to terminate the program.
 
-File Redirection
+### File Redirection
 ```sh
 ./fib_heap < commands.txt
+```
 
 Create a file with all the commands, then run the program with input redirected from this file:
 
-Commands
+## Commands
 The available commands are:
 
 insert <key> <value>: Insert a new element with the given key and value.
@@ -41,5 +44,5 @@ delete <key> <value>: Delete the element with the specified key and value.
 decrease <key> <value> <amount>: Decrease the key of the specified element by the given amount.
 extract: Extract the minimum element from the heap.
 quit: Terminate the program.
-License
+## License
 This project is open-sourced under the MIT license.
